@@ -6,7 +6,7 @@ const nameContactInput = document.getElementById('name-contato')
 const emailContactInput = document.getElementById('email-contato')
 const telefoneContactInput = document.getElementById('telefone-contato')
 
-axios.defaults.baseURL = 'https://curriculo-daniel-api.herokuapp.com/'
+axios.defaults.baseURL = 'https://curriculo-daniel-api.herokuapp.com'
 
 async function addComment(event) {
     event.preventDefault()

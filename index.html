@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Daniel Roberto</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img class="image-profile" src="./img/perfil.jpg" alt="foto-de-perfil">
+                <div class="info-profile">
+                    <h1>Daniel Roberto</h1>
+                    <h2>Developer</h2>
+                    <p>FrontEnd & BackEnd</p>
+                    <div class="social-links">
+                        <a href="https://github.com/dan1xk" target="_blank" class="social-links">
+                            <img src="img/github.png" alt="ico github" class="social-icons">
+                        </a>
+                        <a href="https://www.linkedin.com/in/daniel-roberto-2a722a226/" target="_blank"
+                            class="social-links">
+                            <img src="img/linkedin.png" alt="ico linkedin" class="social-icons">
+                        </a>
+                        <a href="https://www.instagram.com/_danielrobert0/" target="_blank" class="social-links">
+                            <img src="img/instagram.png" alt="ico instagram" class="social-icons">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </header>
+            <main class="content">
+                <div class="row">
+                    <div class="column">
+                        <p>
+                            Olá tudo bem?, meu nome é <span>Daniel Roberto da Silva</span> ,
+                            tenho 21 anos, sou do <span>Rio Grande do Sul</span>,
+                            apaixonado por tecnologia e programação,
+                            atualmente estou cursando <span>Fullstack na Growdev</span> ,
+                            onde aprendo programação utilizando as tecnologias mais
+                            usadas no mercado como node, typescript,
+                            api-rest, typeorm e banco de dados relacional e não relacional.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <h1>Habilidades</h1>
+                        <p>Api-Rest & Node.js </p>
+                        <p>typeORM</p>
+                        <p>Git e Github</p>
+                        <p>Typescript e express</p>
+                        <p>HTML, CSS e Javascript</p>
+                    </div>
+
+                    <div class="card">
+                        <h1>Softskills</h1>
+                        <p>Facilidade em expressar ideias</p>
+                        <p>Foco em buscar soluções</p>
+                        <p>Colaboração e proatividade</p>
+                        <p>Trabalho em equipe</p>
+                    </div>
+                    <div class="card">
+                        <h1>Cursos/Conhecimentos</h1>
+                        <p>Growdev starter 2021 - 2022 (cursando)</p>
+                        <p> Dio - Essential Programming Logic</p>
+                        <p>Inglês - Intermediario</p>
+                        <p>Espanhol - Básico</p>
+                    </div>
+                    <div class="card">
+                        <h1>Objetivos</h1>
+                        <p>Ingressar no mercado de trabalho e atuar na programação de sistemas em Javascript,</p>
+                            <p>Nodejs, Typescript, banco de dados Postgree e ferramentas para web. Sempre buscando </p>
+                            <p>conhecimento e soluções nos desafios,
+                            trabalhar em uma empresa e ter o reconhecimento </p>
+                        <p>do meu trabalho.</p>
+                    </div>
+                </div>
+                <div class="container-comments">
+                    <form class="comments-form">
+                        <h1>Deixe seu comentário</h1>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" class="name-input" id="name-input">
+                        <label for="comment">Comentario</label>
+                        <textarea name="comment" id="textarea-coment" cols="30" rows="5"></textarea>
+                        <input type="submit" class="button" value="ENVIAR" onclick="addComment(event)">
+                        <div class="msg"></div>
+                    </form>
+                    <form class="comments-box">
+                        <ul class="comments">
+                        </ul>
+                    </form>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-content">
+                        <h1>Entre em contato</h1>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" class="contact-input" id="name-contato">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" class="contact-input" id="email-contato">
+                        <label for="comment">Telefone</label>
+                        <input type="text" name="telefone" class="contact-input" id="telefone-contato">
+                        <input type="submit" class="button" value="ENVIAR" onclick="addContact(event)">
+                    </div>
+                    <div class="msg-contact"></div>
+                </div>
+                <div class="footer">
+                    <footer>
+                        <p>&copy Daniel Roberto da Silva 2022</p>
+                    </footer>
+                </div>
+            </main>  
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./js/scripts.js"></script>
+    </body>
+</html>

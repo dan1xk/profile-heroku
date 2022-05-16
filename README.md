@@ -1,4 +1,4 @@
-# Currículo
+# Profile
 
  <div>
   <a href="https://github.com/Curriculo">
